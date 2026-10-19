@@ -1,0 +1,33 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+!/var/
+/var/cache/
+/var/log/
+/var/tmp/
+!/var/cache/.gitkeep
+!/var/log/.gitkeep
+!/var/tmp/.gitkeep
+###< symfony/framework-bundle ###
+
+###> composer ###
+/vendor/
+###< composer ###
+
+###> frontend ###
+/node_modules/
+/public/build/
+###< frontend ###
+
+###> dev & ide ###
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.vhost.conf
+*.log
+###< dev & ide ###

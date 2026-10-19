@@ -1,0 +1,20 @@
+###> symfony/framework-bundle ###
+/.idea
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/public/storage/images/
+/src/.preload.php
+/var/
+/vendor/
+composer.lock
+
+/public/uploads
+###< symfony/framework-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+.docker/virtualhost.conf
